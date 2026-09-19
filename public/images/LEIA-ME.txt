@@ -1,0 +1,9 @@
+Fotos usadas no site (recortes com fundo transparente, 4:5 vertical):
+
+  milena-hero.webp   -> foto principal (Hero)
+  milena-sobre.webp  -> foto da seção "Sobre"
+
+Para trocar, substitua os arquivos mantendo o nome, ou ajuste os caminhos em
+src/constants.ts (objeto `IMAGES`). Se o arquivo não existir, o site mostra um placeholder.
+Dica: PNG/WebP com fundo transparente ficam sobre o degradê areia da moldura; fotos
+com fundo comum (JPG) também funcionam, o recorte é feito por object-fit: cover.
