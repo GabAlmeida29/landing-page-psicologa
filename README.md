@@ -86,13 +86,6 @@ src/
 
 Os componentes só compõem outros componentes e leem `constants.ts`; estilos ficam em `global.css` e regras de negócio em `hooks/`, `schemas/` e `utils/`.
 
-## Observações antes de publicar
-
-- Substitua todos os dados fictícios (CRP, contatos, endereço, valores, formação e números como "sessões realizadas").
-- Depoimentos em publicidade de psicólogos podem ter restrições do Conselho Federal de Psicologia. Confirme as normas vigentes; para remover a seção, tire `<Testimonials />` de `src/App.tsx` e o link correspondente em `NAV_LINKS`.
-- O mapa usa o embed do Google Maps a partir do endereço em `SITE.address`, sem chave de API. Confira se aponta para o local correto.
-- Ajuste `<title>` e meta tags em `index.html` para o domínio e o nome reais.
-
 ## Deploy
 
 O resultado de `npm run build` é uma pasta `dist/` estática, que pode ser publicada em qualquer hospedagem de arquivos estáticos (Vercel, Netlify, GitHub Pages, Cloudflare Pages etc.).
